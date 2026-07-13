@@ -45,3 +45,8 @@ out/
 ### OS ###
 .DS_Store
 Thumbs.db
+
+/target/
+.idea/
+*.iml
+application.yml
