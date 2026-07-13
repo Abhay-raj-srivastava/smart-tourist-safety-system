@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: smart-tourist-safety-system
+  profiles:
+    active: dev # Default profile
+
+# Global OpenAPI (Swagger) settings
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    tagsSorter: alpha
+    operationsSorter: method
+    display-request-duration: true
+
+jwt:
+  secret: YOUR_SECRET_HERE
+  expiration: 86400000 # 24 hours in milliseconds
