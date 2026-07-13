@@ -1,4 +1,4 @@
-package com.epic.smarttouristsafety;
+package com.epic.touristsafety;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

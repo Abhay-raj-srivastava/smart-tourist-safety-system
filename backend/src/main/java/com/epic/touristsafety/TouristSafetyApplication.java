@@ -1,13 +1,13 @@
-package com.epic.smarttouristsafety;
+package com.epic.touristsafety;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SmarttouristsafetyApplication {
+public class TouristSafetyApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SmarttouristsafetyApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(TouristSafetyApplication.class, args);
+    }
 }
